@@ -134,6 +134,7 @@ Netstat là một công cụ hữu ích của Linux cho phép kiểm tra những
  * Proto: Cho biết kế nối là TCP hay UDP
  * Local address: Địa chỉ IP của máy tính địa phương và số cổng được sử dụng. Tên của máy tính địa phương tương ứng với địa chỉ IP và tên của cảng được hiển thị trừ khi tham số -n được quy định cụ thể. Nếu cổng chưa được thành lập, số cổng phải được thể hiện như là một dấu sao (*).
  * Foreign address: Địa chỉ IP và số cổng của máy tính từ xa mà ổ cắm được kết nối. Các tên tương ứng với địa chỉ IP và cổng được hiển thị trừ khi tham số -n được quy định cụ thể. Nếu cổng chưa được thành lập, số cổng phải được thể hiện như là một dấu sao (*)
+ 
  * State: Cho biết trang thái cổng: Cho biết trạng thái của một kết nối TCP. Các trạng thái có thể là như sau:
   * CLOSE_WAIT
   * CLOSED
