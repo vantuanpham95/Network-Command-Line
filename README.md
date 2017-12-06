@@ -1,5 +1,5 @@
 # NETWORK-COMMAND-LINE
-####Tables of contents
+#### Tables of contents
  * [iftop](#1-iftop---kiểm-tra-lưu-lượng-mạng-trên-linux-với-iftop)
  * [netstat](#2-netstat)
  * contrack table
@@ -9,7 +9,7 @@
  * ss
  * dd
  * nslookup
-##1. iftop - Kiểm tra lưu lượng mạng trên Linux với iftop
+## 1. iftop - Kiểm tra lưu lượng mạng trên Linux với iftop
 Iftop được sử dụng để xem băng thông hiện tại trên một giao diện mạng (network interface). Nó lắng nghe lưu lượng mạng trên một interface và hiển thị mức sử dụng băng thông hiện tại. Iftop phải được thực thi bởi user root hoặc user có đủ quyền hạn để theo dõi băng thông mạng.
 
 **Cài đặt**
